@@ -1,7 +1,32 @@
 __pycache__/
 **/__pycache__/
+*.py[cod]
 
 .ipynb_checkpoints/
 **/.ipynb_checkpoints/
 
+# Training and test outputs
+/save/
+/results.xlsx
+/output.txt
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local environments
+.venv/
+venv/
+.env
+
+# OS and editor files
 .vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
